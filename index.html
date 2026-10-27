@@ -2,71 +2,89 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div id="contenedor">
-
-    <div class="header">
-        <h1>Título Principal</h1>
-        <h2>Subtítulo de la página</h2>
-        <div class="arriba">
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Sobre">Sobre mí</a></li>
-                <li><a href="#Aficiones">Aficiones</a></li>
-                <li><a href="#Enlaces">Enlaces</a></li>
-            </ul>
+        <div class="header">
+            <h1>Mi página personal</h1>
+            <h2>Aprender, crear y disfrutar</h2>
+            <div class="arriba"> 
+                <ul>
+                    <li><a href="#Inicio" class="azul">Inicio</a></li>
+                    <li><a href="#Sobre">Sobre mí</a></li>
+                    <li><a href="#Aficiones">Mis aficiones</a></li>
+                    <li><a href="#Enlaces">Enlaces recomendados</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <img src="montana.jpg" alt="Montaña" class="montaña">
+    <img src="img/muntanya-practica-css.jpg" class="montaña" alt="Montañas con lago">
 
     <div id="Inicio">
-        <h2>Inicio</h2>
-        <p>Texto de bienvenida a la página web.</p>
+        <h2>¡Hola!</h2>
+        <p>Me llamo Alex y esta es mi página personal. Me gusta la tecnología, la montaña y aprender cosas nuevas. En esta web encontrarás un poco más sobre mí, mis aficiones y algunos enlaces que me resultan interesantes.</p>
     </div>
 
     <div id="Sobre">
         <h2>Sobre mí</h2>
-        <p>Información sobre mí y mis proyectos.</p>
+        <p>Soy estudiante de desarrollo web. Me interesa el diseño, la programación y todo lo relacionado con la tecnología.</p>
+        <p>Me gusta aprender de forma práctica y crear pequeños proyectos.</p>
     </div>
 
     <div id="Aficiones">
-        <h2 id="titulo_rojo">Mis Aficiones</h2>
+        <h2 id="titulo_rojo">Mis aficiones</h2>
         
         <div class="Rojo">
-            <h3>Afición 1</h3>
-            <p>Descripción de la primera afición.</p>
+            <h3>Senderismo y montaña</h3>
+            <p>Me encanta salir a la naturaleza, descubrir nuevos lugares y disfrutar de las vistas.</p>
         </div>
-        
+
         <div class="Rojo">
-            <h3>Afición 2</h3>
-            <p>Descripción de la segunda afición.</p>
+            <h3>Fotografía</h3>
+            <p>Me gusta hacer fotos de paisajes y de mis viajes.</p>
+        </div>
+
+        <div class="Rojo">
+            <h3>Música</h3>
+            <p>Escucho diferentes estilos de música, sobre todo rock y electrónica.</p>
+        </div>
+
+        <div class="Rojo">
+            <h3>Leer libros de tecnología</h3>
+            <p>Siempre estoy buscando libros y artículos para aprender cosas nuevas.</p>
+        </div>
+
+        <div class="Rojo">
+            <h3>Viajar</h3>
+            <p>Me encanta conocer nuevos lugares, otras culturas y probar comidas diferentes.</p>
         </div>
     </div>
 
-    <div class="enlaces">
+    <div id="Enlaces" class="enlaces">
         <h2 class="titulo_verde">Enlaces recomendados</h2>
-        
+
         <div class="Verde">
-            <h3>Enlace 1</h3>
-            <p>Descripción del primer enlace.</p>
+            <h3>MDN Web Docs</h3>
+            <p>Documentación de HTML, CSS y JavaScript.</p>
         </div>
-        
+
         <div class="Verde">
-            <h3>Enlace 2</h3>
-            <p>Descripción del segundo enlace.</p>
+            <h3>W3Schools</h3>
+            <p>Tutoriales y ejemplos de desarrollo web.</p>
+        </div>
+
+        <div class="Verde">
+            <h3>Unsplash</h3>
+            <p>Imágenes gratuitas de gran calidad.</p>
         </div>
     </div>
 
-    <div class="pie_pagina">
-        <p>Pie de página</p>
+    <div class="footer">
+        <p>2024 Alex. Todos los derechos reservados.</p>
     </div>
-
 </div>
-
 </body>
 </html>
