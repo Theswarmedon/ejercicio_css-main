@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1f3a;
+}
+
+#contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header {
+    background-color: #1a3b5d;
+    color: white;
+}
+
+.arriba a {
+    color: white;
+}
+
+.montaña {
+    width: 100%;
+}
+
+#Inicio {
+    background-color: #eaf2fb;
+}
+
+#Aficiones {
+    background-color: #fde8e8;
+}
+
+.enlaces {
+    background-color: #eafaf1;
+}
+
+#Inicio, #Sobre, #Aficiones, .enlaces {
+    padding: 10px;
+}
+
+#titulo_rojo {
+    color: red;
+}
+
+.titulo_verde {
+    color: green;
+}
+
+.Rojo {
+    border: 1px solid red;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Verde {
+    border: 1px solid green;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pie_pagina {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 10px;
+}
